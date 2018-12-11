@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Uniat_PEV_12_Cloaking
+  m_Shader: {fileID: 4800000, guid: 10b4b408acfc1be4c9b678c94ffc1e20, type: 3}
+  m_ShaderKeywords: _EMMISIVEPERSITENT_ON _GRADIENTB_ON _TRIPLANARFADETEXTURE_ON _TRIPLANAR_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: cc8e67f05b81d374f9639b4ace3d78b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmmisiveMap:
+        m_Texture: {fileID: 2800000, guid: b30d9c999b067d040b70e1f848c7f691, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FadeTexture:
+        m_Texture: {fileID: 2800000, guid: f27523d1c2d27c74dbbde0e1bc066348, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientMap:
+        m_Texture: {fileID: 2800000, guid: 28c7aad1372ff114b90d330f8a2dd938, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 8fc276bac0dd42d45b56f9de5cf70f0b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PositionMap:
+        m_Texture: {fileID: 2800000, guid: 8fdd7b92b7b993f4fbd43313d8ad4521, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecMap:
+        m_Texture: {fileID: 2800000, guid: f38016b08b68efa409fc738f1bad346c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BlurOffset: 0.00259
+    - _CentricGradient: 0
+    - _Cloaking: 0.634
+    - _CloakingFade: 0.295
+    - _EmissiveIntensity: 5
+    - _EmmisivePersitent: 1
+    - _FadeTextureSpeed: 2
+    - _FadeTextureTiling: 20
+    - _FlipGradient: 0
+    - _Fresnel: 1.401715
+    - _FresnelExp: 8.4
+    - _FresnelIntensity: 0.536
+    - _Gloss: 0.544
+    - _GradientB: 1
+    - _GradientG: 0
+    - _GradientR: 0
+    - _Height: 0
+    - _InverseGradient: 0
+    - _Invisibility: 0
+    - _RefractionIntensity: 0.024
+    - _SpecularMapIntensity: 0.535
+    - _TransitionIntensity: 2.39
+    - _Triplanar: 1
+    - _TriplanarFadeTexture: 1
+    - _TriplanarFadeTextureScale: 0.05
+    - _TriplanarScale: 0.07
+    - _UsePositionMap: 0
+    - _UseWorldGradint: 0
+    - _Width: 0.25
+    - _WorldGradientNormalized: 0
+    - _WorldGradientScale: 0.005
+    - _WorldScale: 0.005
+    m_Colors:
+    - _BackgroundTint: {r: 0.64199996, g: 0.64199996, b: 0.64199996, a: 1}
+    - _CloakingTint: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmmisiveColor: {r: 0.9607843, g: 0.8660179, b: 0.43921566, a: 1}
+    - _FresnelColor: {r: 0.3254717, g: 0.66699773, b: 1, a: 1}
+    - _SpecColor: {r: 1, g: 0.6846698, b: 0.4198113, a: 1}
+    - _TransitionColor: {r: 0.39208883, g: 0.36470592, b: 1, a: 1}

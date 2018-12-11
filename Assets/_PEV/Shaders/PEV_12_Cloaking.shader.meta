@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 10b4b408acfc1be4c9b678c94ffc1e20
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Diffuse: {fileID: 2800000, guid: cc8e67f05b81d374f9639b4ace3d78b1, type: 3}
+  - _Normal: {fileID: 2800000, guid: 8fc276bac0dd42d45b56f9de5cf70f0b, type: 3}
+  - _SpecMap: {fileID: 2800000, guid: f38016b08b68efa409fc738f1bad346c, type: 3}
+  - _EmmisiveMap: {fileID: 2800000, guid: b30d9c999b067d040b70e1f848c7f691, type: 3}
+  - _GradientMap: {fileID: 2800000, guid: 28c7aad1372ff114b90d330f8a2dd938, type: 3}
+  - _PositionMap: {fileID: 2800000, guid: 8fdd7b92b7b993f4fbd43313d8ad4521, type: 3}
+  - _FadeTexture: {fileID: 2800000, guid: f27523d1c2d27c74dbbde0e1bc066348, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
